@@ -59,12 +59,12 @@ body{
     width: 100%;
     padding: 14px 15px 14px 40px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #cbd5e1;
     font-size: 14px;
     outline: none;
     background-color: white;
     box-sizing: border-box;
-    
+     transition: border-color 0.3s ease, box-shadow 0.3s ease;
    
 }
 .group input:focus, .group select:focus{
